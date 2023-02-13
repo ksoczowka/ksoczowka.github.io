@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='helpers.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='navbar.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js' defer></script>
+    </head>
+    <body>
+        <div id="main" class="no-pad-marg">
+            <nav class="no-pad-marg center-items">
+                <div id="logo-box" class="center-items">
+                        <img src="./logo.png" alt="logo" id="logo" onmouseover="changeLogo('./logo-gold.png')" onmouseout="changeLogo('./logo.png')"/>
+                </div>
+                <div id="buttons-box" class="center-items">
+                    <ul class="center-items no-pad-marg">
+                        <a href="./index.html#welcome"><li class="nav-button center-items"><p>Home</p></li></a>
+                        <a href="./index.html#about-me"><li class="nav-button center-items"><p>About Me</p></li></a>
+                        <a href="./index.html#contact"><li class="nav-button center-items"><p>Contact</p></li></a>
+                    </ul>
+                </div>
+            </nav>
+
+            <section id="welcome" class="center-items">
+                <div id="welcome-text" class="center-items">
+                    <p><b>Welcome</b></p>
+                    <p id="blinking-floor">_</p>
+                </div>
+                <div id="welcome-next" class="next center-items">
+                    <a href="./index.html#about-me">
+                        <p>⮟ Click Me! ⮟</p>
+                    </a>
+                </div>
+            </section>
+
+            <section class="phony-gap"></section>
+
+            <section id="about-me">
+                <div id="about-text">
+                    <p></p>
+                </div>
+                <div id="about-next" class="next center-items">
+                    <a href="./index.html#contact">
+                        <p>⮟ Click Me! ⮟</p>
+                    </a>
+            </section>
+
+            <section class="phony-gap"></section>
+
+            <section id="contact">
+                <div id="contact-text">
+                    <p></p>
+                </div>
+                <div id="contact-top" class="next center-items">
+                    <a href="./index.html#welcome">
+                        <p>⮝ Click Me! ⮝</p>
+                    </a>
+            </section>
+            <footer class="no-pad-marg">
+                Bruh
+            </footer>
+        </div>
+    </body>
+</html>

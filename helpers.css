@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: black;
+    padding: 0;
+    margin: 0px;
+    font-family: Helvetica;
+    color: white;
+}
+
+/* Removes scrollbar: chrome */
+body::-webkit-scrollbar {
+    display: none;
+} 
+.center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no-pad-marg {
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background-color: goldenrod;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}

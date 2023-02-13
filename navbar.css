@@ -1,0 +1,72 @@
+
+#logo {
+    z-index: 5;
+    aspect-ratio: 1.0;
+    height: 80%;
+    user-select: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.2vw;
+    padding-bottom: 0.3vw;
+    padding-top: 0.07vw;
+    border-radius: 10vw;
+
+    transition: all 0.2s ease;
+}
+#logo:hover {
+    z-index: 5;
+    cursor: pointer;
+    scale: 1.2;   
+}
+
+nav {
+    z-index: 2;
+    position:fixed;
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#logo-box {
+    z-index: 2;
+    height:100%;
+    width: 20vw;
+}
+#logo-box>a {
+    z-index: 7;
+    height:10vh;
+    aspect-ratio: 1;
+}
+
+#buttons-box {
+    display: flex;
+    height:100%;
+    width:80vw;
+}
+
+#buttons-box>ul {
+    height: 100%;
+    width: fit-content;
+    gap: 10%;
+}
+.nav-button {
+    list-style-type: none;
+    color: white;
+    outline: white 5px solid;
+    height: max-content;
+    width: 20vw;
+    scale: 1.0;
+    border-radius: 5px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+
+    transition: all 0.2s ease;
+}
+.nav-button:hover {
+    cursor: pointer;
+    scale: 1.2;
+    color: goldenrod;
+    outline-color: goldenrod;    
+}
+
