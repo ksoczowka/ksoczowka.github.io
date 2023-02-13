@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 320vh;
-    background: linear-gradient(180deg, rgb(23, 23, 23) 0%, rgb(75, 75, 75) 100%);
+    background: rgb(23, 23, 23)
 }
 #welcome {
     height: 100vh;
