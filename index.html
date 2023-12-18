@@ -7,13 +7,14 @@
         <link rel='stylesheet' type='text/css' media='screen' href='helpers.css'>
         <link rel='stylesheet' type='text/css' media='screen' href='navbar.css'>
         <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='about-me.css'>
         <script src='main.js' defer></script>
     </head>
     <body>
         <div id="main" class="no-pad-marg">
             <nav class="no-pad-marg center-items">
                 <div id="logo-box" class="center-items">
-                        <img src="./logo.png" alt="logo" id="logo" onmouseover="changeLogo('./logo-gold.png')" onmouseout="changeLogo('./logo.png')"/>
+                    <a href="./index.html#welcome"><img src="./logo.png" alt="logo" id="logo" onmouseover="changeLogo('./logo-gold.png')" onmouseout="changeLogo('./logo.png')"/></a>
                 </div>
                 <div id="buttons-box" class="center-items">
                     <ul class="center-items no-pad-marg">
@@ -40,7 +41,31 @@
 
             <section id="about-me">
                 <div id="about-text" class="center-items">
-                    
+                    <div id="about-left">
+                        <p>Hello! I am a <span class="golden">Computer Science</span> student and <span class="golden">C++</span> programmer.</p><br>
+                        <p>Technologies I use:</p><br>
+                        <ul>
+                            <li><span class="golden">C++17</span> and above</li>
+                            <li>Standard Template Library (<span class="golden">STL</span>)</li>
+                            <li>raylib</li>
+                            <li><span class="golden">G++</span> compilator</li>
+                            <li>CMake</li>
+                            <li><span class="golden">GDB</span> debugger</li>
+                        </ul>
+                    </div>
+                    <div id="about-center" class="center-items">
+                        <div>
+                            <img src="./desk-slime-screen.png" alt="Desk Slime Screenshot"/><br>
+                            <p>Early version on Manjaro Linux</p>
+                        </div>
+                    </div>
+                    <div id="about-right">      
+                        <h1>Desk Slime</h1>              
+                        <p>I'm currently working on a project called <a href="https://github.com/ksoczowka/desk-slime.git">Desk Slime</a>, where I leverage the <span class="golden">raylib</span> library and incorporate features from modern <span class="golden">C++</span>.</p>
+                        <p>The project centers around a base <span class="golden">class Pet</span>, which allows for easy customization.</p>
+                        <p>Additionally, I've designed the Pet class in such a way that it can be utilized as a library by including the <span class="golden">pet.hpp</span> header and linking with the corresponding <span class="golden">pet.cpp</span> file in other projects.</p>
+                        <p>This <span class="golden">modular design</span> promotes code reuse and <span class="golden">flexibility</span> across different applications.</p>
+                    </div>
                 </div>
                 <div id="about-next" class="next center-items">
                     <a href="./index.html#contact">

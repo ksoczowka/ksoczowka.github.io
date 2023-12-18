@@ -24,7 +24,7 @@ nav {
     display: flex;
     height: 10vh;
     width: 100vw;
-    background: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(rgb(5, 5, 5),rgb(23, 23, 23))
 }
 
 #logo-box {

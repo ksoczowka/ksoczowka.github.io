@@ -27,7 +27,3 @@ body::-webkit-scrollbar {
     background-color: goldenrod;
     color: white;
 }
-
-a {
-    text-decoration: none;
-}

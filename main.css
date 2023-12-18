@@ -13,6 +13,10 @@
 .next {
     height: 20vh;
     color:rgb(75, 75, 75);
+
+}
+.next>a {
+    text-decoration: none;
 }
 #welcome-text {
     flex-direction: row;
@@ -52,27 +56,11 @@ section {
     height: 80vh;
 }
 
-#about-text {
-    flex-direction: row;
-    height: 80vh;
-}
 
-#about-next>a {
-    font-size: medium;
-    color:rgb(75, 75, 75);
-    scale: 1.0;
-
-    transition: all 0.5s ease;
-}
-#about-next>a:hover {
-    color: goldenrod;
-    scale: 1.2;
-}
 #contact-top>a {
     font-size: medium;
     color:rgb(23, 23, 23);
     scale: 1.0;
-
     transition: all 0.5s ease;
 }
 #contact-top>a:hover {
