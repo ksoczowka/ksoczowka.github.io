@@ -56,6 +56,28 @@ section {
     height: 80vh;
 }
 
+#contact-text>div {
+    margin: auto;
+    font-size: larger;
+}
+
+.contact-header {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.hide-this-from-my-eyes {
+    visibility: hidden;
+}
+
+#contact-text>div>ul>li>a {
+    color: goldenrod;
+}
+
+#contact-text>div>ul>li>a:link {
+    color: goldenrod;
+}
 
 #contact-top>a {
     font-size: medium;

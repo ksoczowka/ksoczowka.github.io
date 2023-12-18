@@ -45,12 +45,10 @@
 
 #about-right>p>a {
     color: goldenrod;
-    text-decoration: solid;
 }
 
 #about-right>p>a:link {
     color: goldenrod;
-    text-decoration: dashed;
 }
 
 .golden {
