@@ -49,6 +49,9 @@ nav {
     width: fit-content;
     gap: 10%;
 }
+#buttons-box>ul>a {
+    text-decoration: none;
+}
 .nav-button {
     list-style-type: none;
     color: white;
